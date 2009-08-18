@@ -12,7 +12,6 @@ module Prawn
       def initialize(data) #:nodoc:
         @prawn_fast_png_data = data
         prawn_fast_png_old_initialize(data)
-        @prawn_fast_png_data = nil
       end
 
       private
